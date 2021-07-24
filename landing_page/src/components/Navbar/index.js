@@ -11,7 +11,7 @@ function Navbar() {
                 </a>
 
                 <ul className="nav nav-pills">
-                    <li type="button" class="btn dropdown-toggle menu-dropdown" data-bs-toggle="dropdown" aria-expanded="false">Demos</li>
+                    <li type="button" className="btn dropdown-toggle menu-dropdown" data-bs-toggle="dropdown" aria-expanded="false">Demos</li>
                     <li className="nav-item"><a href="#" className="nav-link menu">Pages</a></li>
                     <li className="nav-item"><a href="#" className="nav-link menu">Support</a></li>
                     <button href="#" className="menu-button btn">Get Started</button>
