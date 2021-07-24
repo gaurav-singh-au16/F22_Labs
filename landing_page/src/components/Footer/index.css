@@ -1,0 +1,31 @@
+
+.omega{
+    font-size: large;
+    font-weight: 900;
+    color: #19191b;
+}
+
+.omega-subheading{
+    font-size: medium;
+    color: #696871;
+}
+.social-logo{
+    border-radius: 50%;
+    object-fit: contain;
+    
+}
+.heading{
+    font-size: medium;
+    font-weight: bold;
+    color: #19191b
+}
+.link{
+    margin-top: 1.1rem;
+    font-size: small;
+    color: #19191b;
+}
+.link-contact{
+    margin-top: 1.1rem;
+    font-size: small;
+    color: #5454d4;
+}
