@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from '../../component/Navbar'
 import './index.css'
+import * as yup from 'yup'
 
 function Signup() {
     return (
