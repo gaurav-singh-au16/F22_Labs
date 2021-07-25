@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../../components/Footer'
 import './index.css'
 import top_box_image from '../../assets/top-box-img/bitmap.png'
 import Navbar from '../../components/Navbar'
@@ -175,10 +176,73 @@ function LandingPage() {
                 </div>
                     <div className="col-4">
                     <span className="save">Save 25%</span>
+                </div>  
+            </div>
+            <p className="text-light box-5-space">.</p>
+        </div>
+
+        <div className="row price-main-container">
+            <div className="col-6 pricing-container">
+                <p className="pricing-top-heading text-center mt-3">Starter</p>
+                <h2 className="text-center"><span className="pricing-sub-top-heading">$</span><span className="price-main">19</span><span className="pricing-sub-top-heading">/mo</span></h2>
+                <p className="second-box-sub-heading text-center">Per user</p>
+                <div><span className="box-4-sub-sub-heading mx-5"><img src={box_4_2} className="m-2 box-4-check" />5 responsive landing pages</span></div>
+                <div><span className="box-4-sub-sub-heading mx-5"><img src={box_4_2} className="m-2 box-4-check" />50+ HTML UI elements</span></div>
+                <div><span className="box-4-sub-sub-heading mx-5"><img src={box_4_2} className="m-2 box-4-check" />Unlimited domains</span></div>
+                <div><span className="box-4-sub-sub-heading mx-5"><img src={box_4_2} className="m-2 box-4-check" />6 months premium support</span></div>
+                <div><span className="box-4-sub-sub-heading mx-5"><img src={box_4_2} className="m-2 box-4-check" />Lifetime updates</span></div>
+                <div className="row"><button className="btn pricing-button">Start 14 Days Free Trial</button></div>
+            </div>
+            <div className="col-6 pricing-container">
+                <p className="pricing-top-heading text-center mt-3">Business</p>
+                <h2 className="text-center"><span className="pricing-sub-top-heading">$</span><span className="price-main">49</span><span className="pricing-sub-top-heading">/mo</span></h2>
+                <p className="second-box-sub-heading text-center">Per user</p>
+                <div><span className="box-4-sub-sub-heading mx-5"><img src={box_4_2} className="m-2 box-4-check" />5 responsive landing pages</span></div>
+                <div><span className="box-4-sub-sub-heading mx-5"><img src={box_4_2} className="m-2 box-4-check" />50+ HTML UI elements</span></div>
+                <div><span className="box-4-sub-sub-heading mx-5"><img src={box_4_2} className="m-2 box-4-check" />Unlimited domains</span></div>
+                <div><span className="box-4-sub-sub-heading mx-5"><img src={box_4_2} className="m-2 box-4-check" />6 months premium support</span></div>
+                <div><span className="box-4-sub-sub-heading mx-5"><img src={box_4_2} className="m-2 box-4-check" />Lifetime updates</span></div>
+                <div className="row"><button className="btn pricing-button">Start 14 Days Free Trial</button></div>
+            </div>
+        </div>
+
+        <div className="box-6">
+            <div className="box-6-position mx-5">
+                <div className="row container w-75 mx-5">
+                    <div className="col-6">
+                        <span className="box-4-sub-sub-heading mx-5 text-white"><img src={box_6_4} className="m-2 box-6-check" />Can I use Omega for my clients?</span>
+                        <p className="box-6-sub-heading">Absolutely. The Envato Theme license allows you to build a websites for personal use or for a client. User Omega for your clients.</p>
+                    </div>
+                    <div className="col-6">
+                        <span className="box-4-sub-sub-heading mx-5 text-white"><img src={box_6_4} className="m-2 box-6-check" />Do I get free updates?</span>
+                        <p className="box-6-sub-heading">Yes. We update all of our themes regularly, plus are constantly adding new components, pages, and features to our themes. Purchase once and get lifetime updates.</p>
+                    </div>
+                </div>
+
+                <div className="row w-75 container mx-5 mt-5">
+                    <div className="col-6">
+                        <span className="box-4-sub-sub-heading mx-5 text-white"><img src={box_6_4} className="m-2 box-6-check" />Does it work with WordPress?</span>
+                        <p className="box-6-sub-heading">Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without any design or custom coding. </p>
+                    </div>
+                    <div className="col-6">
+                        <span className="box-4-sub-sub-heading mx-5 text-white"><img src={box_6_4} className="m-2 box-6-check" />Will you provide support?</span>
+                        <p className="box-6-sub-heading">With lots of unique blocks, you can easily build a page without any design or custom coding. with Omega that converts more visitors than any website.</p>
+                    </div>
+                </div>
+
+                <div className="w-75 container mx-5 mt-5">
+                    <h1 className="text-white text-center">Build Fast, Launch Faster</h1>
+                    <p className ="box-6-sub-heading text-center">Create custom landing pages with Omega that converts</p>
+                    <p className ="box-6-sub-heading text-center">more visitors than any website.</p>
+                    <div className="text-center"><button className="btn btn-lg top-box-button mt-4">Start 14 Days Free Trial</button>
+                    </div>
+                    <h1 className="top-box-button-sub-heading mt-2 text-center">No credit card required</h1>
+                    
+                </div>
+
                 </div>
             </div>
-            
-        </div>
+            <Footer />
         </>
 
     )
